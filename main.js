@@ -13,6 +13,4 @@ while (contador < listaDeTeclas.length;contador = contador +1;) {
     listaDeTeclas[contador].onclick = function(){ //função anonima para tocaSom
         tocaSom(idAudio);
     };
-   
-    console.log (contador);
 }
